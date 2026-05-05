@@ -35,6 +35,6 @@ class SwiftComplexity < Formula
 
   test do
     output = shell_output("#{bin}/swift-complexity --help")
-    assert_match "SwiftComplexityCLI", output
+    assert_match "Analyze Swift code complexity", output
   end
 end
