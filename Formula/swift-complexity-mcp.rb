@@ -1,24 +1,24 @@
 class SwiftComplexityMcp < Formula
   desc "MCP server exposing swift-complexity to LLM agents"
   homepage "https://github.com/fummicc1/swift-complexity"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/fummicc1/swift-complexity/releases/download/v#{version}/SwiftComplexityMCP-#{version}-macos-arm64.tar.gz"
-      sha256 "3e8ba41bfc3547111afad645dee853ae768a39eee4dba1736bac93be58ea9399"
+      sha256 "5bc0999b2d8928c1fe2e0250bc720b3f34d521633fcbc1be88ca4afa695905cc"
     end
     on_intel do
       url "https://github.com/fummicc1/swift-complexity/releases/download/v#{version}/SwiftComplexityMCP-#{version}-macos-x86_64.tar.gz"
-      sha256 "b548d8c2a4afa77d0f1d51b2a03fa48f7882cb6827105fe6a9f7e47980eaf61f"
+      sha256 "7b56e5afeb711605c3e40a5c8d51111b3c44d3f328b3d50e9fafe52e898dd630"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/fummicc1/swift-complexity/releases/download/v#{version}/SwiftComplexityMCP-#{version}-linux-x86_64.tar.gz"
-      sha256 "4bac2a131cdd836c710dcda44d50b7588370d87a64a418069c316626a83ee7a6"
+      sha256 "7ebcba4124ca4ec2086fe16752238aab064335710c457677fcb7f5f6ff51c4ef"
     end
   end
 
