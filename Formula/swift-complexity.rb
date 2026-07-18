@@ -1,24 +1,24 @@
 class SwiftComplexity < Formula
   desc "Analyze Swift code complexity (Cyclomatic, Cognitive, LCOM4)"
   homepage "https://github.com/fummicc1/swift-complexity"
-  version "1.0.0"
+  version "1.1.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/fummicc1/swift-complexity/releases/download/v#{version}/SwiftComplexityCLI-#{version}-macos-arm64.tar.gz"
-      sha256 "4ae3c5d5f1aa643f29b4bc7de5f2bcd13a2b80036f2da41e5ff658f49dac80b3"
+      sha256 "470e9b67f1c6728e5252318de3be0413a7a1a444afec80f1cf6df584f88e65f4"
     end
     on_intel do
       url "https://github.com/fummicc1/swift-complexity/releases/download/v#{version}/SwiftComplexityCLI-#{version}-macos-x86_64.tar.gz"
-      sha256 "a7a8b35c4537ddad57878bdec4107885e9c84ecd361a16eda5539e3aaef5ed9b"
+      sha256 "89b7f4c0034b29dde4c63488b0b79fc4dbd5977bb93b9ed50afae0fabc1b1b59"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/fummicc1/swift-complexity/releases/download/v#{version}/SwiftComplexityCLI-#{version}-linux-x86_64.tar.gz"
-      sha256 "2a8c7f7fa6577af73da2a294c704d25d49bf463dacfc930bc5999bc24bc1bbdb"
+      sha256 "723670db9eece9e134be0b76e8c59fdc2664f83746960d8579cc03a731d7b1c2"
     end
   end
 
